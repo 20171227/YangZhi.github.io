@@ -102,14 +102,14 @@ section {
     overflow:hidden;
 }
 
-section:before {
+/* section:before {
     content: "\273d";
     text-align: center;
     line-height: 1;
     position: absolute;
     width: 800px;
     top: 20px;
-}
+} */
 
 section:first-child:before {
     display: none;
@@ -189,11 +189,11 @@ footer {
 }
 
 footer p:before {
-    content: "\ab\3000";
+   /* content: "\ab\3000";*/
 }
 
 footer p:after {
-    content: "\3000\bb";
+  /*  content: "\3000\bb";*/
 }
 
 footer a {
